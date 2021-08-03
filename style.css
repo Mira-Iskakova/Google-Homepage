@@ -15,8 +15,6 @@ body {
     width: 100%;
     left: 0px;
     top: 0px;
-
-    border: 2px solid red; /*DELETE*/
 }
 
 .nav-container a {
@@ -28,15 +26,11 @@ body {
     flex-grow: 1;
     display: flex;
     align-items: center;
-
-    border: 2px solid blue; /*DELETE*/
 }
 
 .nav-child-2 {
     flex-grow: 1;
     padding-right: 15px;
-
-    border: 2px solid blue; /*DELETE*/
 }
 
 .nav-bar-left {
@@ -67,6 +61,18 @@ body {
     text-decoration: underline;
 }
 
+.square-icon {
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.login-icon {
+    width: 90px;
+    height: auto;
+    vertical-align: middle;
+}
+
 
 /* GRID BOX CONTAINER */
 .grid-container {
@@ -78,8 +84,6 @@ body {
     margin-top: 150px;
     width: 700px;
     padding: 10px;
-
-    border: 2px solid black; /*DELETE*/
 }
 
 .grid-first-row {
@@ -194,3 +198,94 @@ body {
     .lucky-button:visited {
         border: 2px solid #4285f4;
     } 
+
+
+/* FOURTH ROW CONTENTS */
+.grid-fourth-row-language-sentence {
+    text-align: center;
+}
+
+    .grid-fourth-row-language-sentence a {
+        text-decoration: none;
+    }
+
+    .grid-fourth-row-language-sentence a:hover {
+        text-decoration: underline;
+    }
+
+
+/* BOTTOM TRAY */
+.tray-container {
+    display: flex;
+    flex-direction: space-between;
+    padding: 15px;
+
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+
+    background-color: #ffffff;
+}   
+
+    .tray-container a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+.tray-child-1 {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.tray-child-2 {
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+.tray-bar-left {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    text-align: left;
+}
+
+.tray-bar-right {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    text-align: right;
+}
+
+.tray-container li {
+    display: inline-block;
+
+    padding: 5px 10px;
+    margin: 0 5px;
+    
+    color: #717171;
+    font-size: 14px;
+}
+
+    .tray-container li:hover {
+        text-decoration: underline;
+    }
+
+
+/* COUNTRY TRAY */
+.country-container {
+    display: flex;
+    flex-direction: flex-start;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 50px;
+
+    background-color: #ffffff;
+    color: #717171;
+}
