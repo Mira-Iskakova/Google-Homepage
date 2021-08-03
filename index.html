@@ -39,49 +39,46 @@
                 </ul>
             </div>
         </div>
-        <!-- <div class="top-nav">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-        </div> -->
     </header>
     <main>
-        <div id="logo" class="center" style="margin-top: 130px;">
-            <img src="images/google_logo.png" alt="Google logo">
-        </div>
-        <div id="search_bar">
-            <form>
-                <div class="center-search">
-                    <input id="search" type="text" name="text" placeholder="What would you like to learn today?"><br>
-                </div>
-                <div>
-                    <center>
-                        <input id="button" type="submit" name="search_button" value="Google Search">
-                        <input id="lucky" type="submit" name="lucky" value="I'm Feeling Lucky">
-                    </center>
-                </div>
-            </form>
-        </div>
-        <div id="lang">
-            <center>
-                <p>Google offered in:</p>
-                <a href="#">Russian</a>
-                <a href="#">Kazakh</a>
-            </center>
+        <div class="grid-container">
+            
+            <!-- First row - Google logo -->
+            <div class="grid-first-row">
+                <img class="google-logo" src="images/google_logo.png" alt="google-logo">  
+            </div> 
+
+
+            <!-- Second row - Search icon -->
+            <div class="grid-second-row-search-icon">
+                <img class="search-icon" src="images/search_icon.png" alt="search-icon">
+            </div>
+
+            <!-- Second row - Search bar -->
+            <div class="grid-second-row-search-bar">
+                <input class="search-bar" id="search-bar" type="text" autofocus>
+            </div>
+
+
+            <!-- Third row - Search button -->
+            <div class="grid-third-row-search-button">
+                <input class="search-button" type="submit" value="Google Search">
+            </div>
+
+            <!-- Third row - Lucky button -->
+            <div class="grid-third-row-lucky-button">
+                <input class="lucky-button" type="submit" value="I'm Feeling Lucky">
+            </div>
+
+
+            <!-- Fourth row - Other language sentence -->
+            <div class="grid-fourth-row-language-sentence">
+                Google offered in: <a class="language-link1" href="#">Kazakh</a> <a class="language-link2" href="#">Russian</a>
+            </div>
         </div>
     </main>
 </body>
     <footer>
-        <div>
-            <p>Kazakhstan</p><br>
-            <a href="#">About</a>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search Works</a>
-        </div>
-        <div class="top-nav">
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
-        </div>
+        
     </footer>
 </html>
