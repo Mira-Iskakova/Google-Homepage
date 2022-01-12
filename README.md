@@ -1,4 +1,4 @@
-This is a Google homepage project.
+This is a Google homepage clone project.
 
 Live version can be found here:
 
